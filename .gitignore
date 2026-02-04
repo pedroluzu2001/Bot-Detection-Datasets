@@ -1,0 +1,7 @@
+# Ignorar los CSV originales (porque pesan mucho)
+*.csv
+data/*.csv
+
+# Permitir subir zips
+!*.zip
+!*.rar
