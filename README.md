@@ -17,20 +17,20 @@ A diferencia de los enfoques tradicionales que dependen únicamente de métricas
 ## 📂 Estructura del Repositorio
 
 ```bash
-├── data.zip                   # 📦 DATASET COMPRIMIDO (Descomprimir antes de usar)
-│   ├── tweets.csv             # Dataset procesado con features
-│   └── tweets_with_intents.csv # Dataset con probabilidades de intención (BART)
+├── data.zip                   # 📦 DATASET COMPRIMIDO (Contiene:)
+│   ├── Comentarios_Extraidos - Comments_Luisa.csv  # Data cruda (Luisa)
+│   ├── Comentarios_Extraidos - Comments_Noboa.csv  # Data cruda (Noboa)
+│   ├── Tweets archivados - Daniel_Noboa_Tweets.csv # Histórico (Noboa)
+│   ├── Tweets archivados - Luisa_Gonzales_Tweets.csv # Histórico (Luisa)
+│   ├── tweets_with_intents.csv                     # Data con probabilidades (BART)
+│   └── tweeets.csv                                 # Dataset unificado y procesado
 ├── notebooks/
 │   ├── 01_Data_Preprocessing.ipynb   # Limpieza e Ingeniería de Características
 │   ├── 02_Intent_Analysis.ipynb      # Clasificación Zero-Shot y Cálculo de Entropía
-│   ├── 03_Heuristic_Labeling.ipynb   # Cálculo de H-Score y Supervisión Débil
-│   └── 04_GNN_Training.ipynb         # Entrenamiento GNN y Evaluación
+│   └── 03_GNN_Training.ipynb         # Entrenamiento GNN y Evaluación
 ├── src/
 │   ├── models.py              # Definición de la arquitectura GCN
 │   └── utils.py               # Funciones auxiliares para métricas y ploteo
-├── outputs/
-│   ├── models/                # Pesos guardados del modelo (.pth)
-│   └── gephi/                 # Archivos .gexf para visualización
 ├── requirements.txt
 └── README.md
 
