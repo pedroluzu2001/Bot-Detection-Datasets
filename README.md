@@ -5,7 +5,7 @@
 
 ## 📌 Descripción General
 
-Este repositorio contiene la implementación oficial del proyecto de tesis enfocado en la detección de actores automatizados (bots) durante la campaña presidencial de Ecuador 2025 (Luisa González vs. Daniel Noboa).
+Este repositorio contiene la implementación oficial del proyecto de tesis enfocado en la detección de actores automatizados (bots) durante la campaña presidencial de Ecuador 2025 (Luisa González vs. Daniel Noboa). El dataset es original y netamente extraido mediante automatizaciones por Pedro Luzuriaga
 
 A diferencia de los enfoques tradicionales que dependen únicamente de métricas de volumen, este framework introduce una **Arquitectura Híbrida**:
 1.  **Novedad Semántica:** Utiliza la **Entropía de Intención** (Zero-Shot Classification) para medir la "rigidez" del discurso político.
